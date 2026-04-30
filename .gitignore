@@ -1,0 +1,21 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+desktop.ini
+
+# VS Code workspace state (keep settings/extensions if added intentionally)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Local notes / scratch
+scratch/
+*.local.md
+*.draft.md
+
+# Build / preview output (if a static-site preview is added later)
+_site/
+.cache/
+node_modules/
